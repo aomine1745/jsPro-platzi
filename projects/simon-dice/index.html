@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simon dice</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/confetti.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quicksand&display=swap" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/e47c5641ca.js"></script>
+</head>
+<body>
+  <h1 class="title">Simon Dice</h1>
+    <div class="circle-wrapper">
+      <div id="blue" class="circle blue" data-color="blue"></div>
+      <div id="purple" class="circle purple" data-color="purple"></div>
+      <div id="orange" class="circle orange" data-color="orange"></div>
+      <div id="green" class="circle green" data-color="green"></div>
+    </div>
+    <button class="btn btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+
+    <div class="congrats">
+    </div>
+
+    <div class="scoreBox">
+      <h2>Score </h2>
+      <span class="score"></span>
+    </div>
+
+    <div class="starts"></div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/confetti.js"></script>
+</body>
+</html>
